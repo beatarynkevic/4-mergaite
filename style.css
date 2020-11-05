@@ -1,9 +1,17 @@
 body {
-    background-color: antiquewhite;
+   
 }
 div {
-    background-color: brown;
     width: 800px;
     /*margin-left: ((100%-400px)/2);*/
     margin-left: calc((100% - 800px) / 2); /*skaiciuoja lygti. Viso (ekrano plotis-turimas plotis)/2 */
+    background-color: rgb(255, 195, 116);
+}
+header {
+    display: inline-block;
+    width: 100%;
+}
+main {
+    display: inline-block;
+    width: 100%;
 }
